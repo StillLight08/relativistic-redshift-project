@@ -5,6 +5,11 @@ An astrophysical linear algebra and machine learning pipeline built on ~100,000 
 > **Core Research Question:** Using only **5 raw photometric brightness readings** (`u, g, r, i, z`), can pure linear algebra and Special Relativity tell us both **what** a celestial object is (Star, Galaxy, or Quasar) and **how fast** it is receding from Earth ($\beta = v/c$)?
 
 ---
+## Quick Setup
+
+```bash
+pip install -r requirements.txt
+```
 
 ## How the 4-Phase Pipeline Works
 Each phase lives in its own modular Jupyter Notebook and is orchestrated end-to-end by `notebooks/00_final_master_pipeline.ipynb`:
@@ -46,9 +51,4 @@ relativistic-redshift-project/
 │   └── 04_redshift_regression.ipynb       # Phase 4 (Somil)
 ├── requirements.txt                       # Core Python stack
 └── README.md
-```
-## Quick Setup
-
-```bash
-pip install -r requirements.txt
 ```
